@@ -4,7 +4,9 @@
   "author": "小红旗",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "vuepress": "1.8.2",
